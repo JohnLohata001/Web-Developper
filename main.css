@@ -1,0 +1,368 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #bfbfbf;
+
+}
+.container{
+    width: 80%;
+    min-height: 700px;
+    margin: 20px auto;
+    overflow: hidden;
+    background: white;
+}
+.container-header{
+    width: 100%;
+    min-height: 100px;
+    background: #1b4f7e;
+    display: flex;
+    
+}
+.container-header h3{
+    position: absolute;
+    left: 140px;
+    top: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    
+}
+.classMenu{
+    width: 100%;
+    min-height: 40px;
+    background:#02549e ;
+    border-top: white solid 1px;
+}
+#menu-ul{
+    list-style: none;
+    margin-top: 50px;
+    display: none;
+}
+.box{
+    width: 100%;
+    min-height: 300px;
+    background: #edf7ff;
+    display: flex;
+    padding: 30px;
+    text-align: justify;
+}
+.box1 p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4f5051;
+    font-size: 14px;
+    text-align: justify;
+}
+.box1, box2{ 
+    padding: 20px;
+    flex-basis: 50%;
+}
+.box2{
+  
+    padding-left: 70px;
+}
+
+.box1 h2{
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1d4b7c;
+    font-size: 30px;
+}
+
+h1, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 50%;
+    padding: 30px 0 0 20px;;
+    margin: 0;
+    
+}
+.box1 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.bottom-start{
+    width: 200px;
+    height: 40px;
+    background: #87b433;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 1px -1px 0px #4d7503;
+    cursor: pointer;
+}
+.bottom-start:hover{
+    background: #507402;
+    transition: 0.90s;
+}
+.bottom-start label{
+     cursor: pointer;
+}
+
+.part-text{
+    width: 100%;
+    min-height: 200px;
+    background: #1b4f7e;
+}
+.part-text h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 95%;
+    color: white;
+    padding:5px 5%;
+    text-align: center;
+}
+.part-text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    padding-top: 20px;
+}
+.inside-nav1 h1{
+    width: 100px;
+    height: 100px;
+    background: #edf7ff;
+    color: #1e4d85;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 150px;
+    position: relative;
+    top: -45px;
+    left: 100px;
+    padding: 0;
+    line-height: 100px;
+}
+.inside-nav1{
+    display: flex;
+}
+.text-dream{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.text-dream p{
+    flex-basis: 30%;
+    padding-top: 0;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+hr{
+    width: 80%;
+    margin-top: 50px;
+}
+.titleService h1{
+    color: #003770;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 100%;
+}
+.titleService p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.placeConctact{
+    height: 250px;
+    background: white;
+}
+.myFooterClass{
+    height: 100px;
+    background: #1b4f7e;
+}
+.myFooterClass p{
+    color:rgba(255, 255, 255, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+/* Here we create our menu */
+.classMenu{
+   border-bottom: solid 2px #fff; 
+}
+.classMenu ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 150px;
+    top: 10px;
+    float: right;
+    
+}
+.classMenu ul li a:hover{
+    background: #edf7ff;
+    color: black;
+    transition: 0.90s;
+    border-top: tomato solid 1px;
+}
+
+.classMenu ul li a{
+    padding: 11px 40px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-right: solid 1px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.classMenu ul li:first-child a{
+     border-left: solid 1px white;
+}
+/* this is for Login*/
+
+.placeConctact{
+    width: 80%;
+    min-height: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    padding:40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .bg-img {
+    width: 100%;
+    height: 200px;
+    background: silver;
+    /* border: solid 1px rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.7); */
+    padding: 5px;
+   }
+#Student-SHA{
+    width: 100%;
+    height: 200px;
+   
+}
+.myFlex{
+    flex-basis: 45%;
+}
+
+/* Add styles to the form container */
+.contenair {
+    /* position: absolute; */
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+/* .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}  */
+
+/* this place is for social media */
+.icon-bar {
+  position: absolute;
+  top: 10%;
+  right: 140px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   
+}
+ #menu-a{display: none}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 13px 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 13px;
+  
+  float: left;
+ 
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #02549e;
+  color: white;
+
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.bg-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.bg-text h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #003770;;
+    width: 400px;
+    text-align: center;
+    margin-left: 30px;
+    
+}
+#click{
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
+}
+#txt-li{
+    color: #007bb5;
+}

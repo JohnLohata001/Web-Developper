@@ -1,0 +1,133 @@
+@media screen and (max-width:820px){
+    .container{
+    width: 100%;
+    min-height: 1500px;
+    margin: 0 auto;
+    background: white;
+  }   
+  .container-header{
+      flex-direction: unset;
+      width: 100%;
+  }
+   
+  .container-header h3{
+    display: none;    
+    } 
+ .icon-bar {
+    position: absolute;
+    top: 5%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: none;
+   
+ }
+ .container-header h1{
+     font-size: 18px;
+     text-align: center;
+     margin:auto;
+
+ }
+ .classMenu {
+     display: none;
+ }
+    
+    .placeConctact{
+     height: 600px;
+    flex-direction: column;
+  
+  }
+  .nav-manu{
+      position: absolute;
+      width: 100%;
+      height: 35px;
+      padding: 2px;
+      background: rgba(0, 0, 0, 0.9);
+      top: 102px;
+      color: white;
+      text-decoration:none;
+      text-align: center;
+      /* cursor: pointer; */
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: block;
+      
+
+  }
+  #menu-a{
+      /* position: absolute; */
+      width: 40px;
+      height: 23px;
+      padding: 5px; 
+      background: rgba(0, 0, 0, 0.9);
+      /* top: 102px; */
+      border: solid 1px silver;
+      border-radius: 4px;
+      color: white;
+      text-decoration:none;
+      text-align: center;
+      /* cursor: pointer; */
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: block;
+  }
+ .fa-bars{
+     font-size: 20px;      
+  }
+
+  #menu-a:hover{
+      background: rgba(94, 92, 92, 0.5);
+      box-shadow: 1px 1px 5px silver;
+  }
+  #menu-ul {
+    width: 100%;
+    min-height: 150px;
+    padding:0px;
+    margin: 42px 0;
+    background: #1b4f7e;
+    display: block;
+    
+}
+#menu-ul li{
+    /* border-bottom: solid 1px silver;
+    padding:15px;
+    background: #1b4f7e; */
+}
+#menu-ul li a{
+    width: 100%;
+    padding:15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-bottom: solid 1px silver;
+    display: block;
+}
+#menu-ul li a:hover{
+    background: #4f7ea7;
+    color: black;
+    font-weight: bold;
+}
+  .inside-nav1{
+      display: none;
+  }
+  .part-text{
+    width: 100%;
+    min-height: 200px;
+    background: #1b4f7e;
+    padding-bottom: 20px;
+  }
+
+  .part-b-txt{
+      padding-top: 10px;
+  }
+.bg-img{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+   }
+  #Student-SHA{
+    width: 100%;
+    height: 200px;
+   
+ }
+}
